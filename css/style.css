@@ -1,0 +1,53 @@
+@charset "UTF-8";
+* {
+  font-family: monospace, 微軟正黑體;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.section {
+  height: 100vh;
+}
+
+.btn-block {
+  width: 300px;
+  font-size: 18px;
+}
+
+.jumbotron {
+  color: #fff;
+  height: 100%;
+  padding-top: 300px;
+  background-image: url("https://static.pexels.com/photos/65834/pexels-photo-65834.jpeg");
+  background-size: cover;
+  background-position: left bottom;
+  background-attachment: fixed;
+}
+
+.section2 img {
+  width: 45%;
+}
+
+.upload-group {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.botton-group button {
+  margin: 10px;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .btn-block {
+    width: 100%;
+  }
+}
